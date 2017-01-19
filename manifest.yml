@@ -6,4 +6,3 @@ applications:
   name: bp-microsite
   host: bp-microsite
   disk_quota: 1024M
-  services:
