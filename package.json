@@ -1,6 +1,6 @@
 {
-  "name": "bp-microsite",
-  "version": "0.0.2",
+  "name": "node-server",
+  "version": "0.0.3",
   "private": true,
   "scripts": {
     "start": "node app.js"

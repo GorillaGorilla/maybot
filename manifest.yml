@@ -3,6 +3,6 @@ applications:
   memory: 256M
   instances: 1
   domain: eu-gb.mybluemix.net
-  name: bp-microsite
-  host: bp-microsite
+  name: rpt-node-exmpl
+  host: rpt-node-exmpl
   disk_quota: 1024M
