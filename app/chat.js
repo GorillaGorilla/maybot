@@ -38,9 +38,15 @@ botmaster.use({
         return bot.sendTextCascadeTo(update.watsonUpdate.output.text, update.sender.id);
     }
 });
-// botmaster.use('outgoing', fulfillOutgoingWare({
-//     actions
-// }));
+
+botmaster.once('update', bot => bot.sendMessage('<greet tz="Europe/London" />'));
+
+console.log("actions", actions);
+botmaster.use({
+    type: 'outgoing',
+    name: 'fulfill-middleware',
+    controller: fulfillOutgoingWare({actions})
+});
 
 module.exports = function(app){
     const socketioSettings = {

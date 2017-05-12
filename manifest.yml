@@ -3,6 +3,6 @@ applications:
   memory: 256M
   instances: 1
   domain: eu-gb.mybluemix.net
-  name: rpt-node-exmpl
-  host: rpt-node-exmpl
+  name: jdwilliams-orchestration
+  host: jdwilliams-orchestration
   disk_quota: 1024M
