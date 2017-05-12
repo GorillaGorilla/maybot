@@ -15,14 +15,12 @@ app.use(express.static('./public'));
 
 
 
-
-
-
-
 var appEnv = cfenv.getAppEnv();
-app.listen(appEnv.port, function(){
+var server = app.listen(appEnv.port, function(){
     console.log('Server running at port: ' + appEnv.port);
 });
+
+require('./app/chat')(server);
 
 
 module.exports = app;

@@ -1,18 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html>
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title>IBM Digital Solutions</title>
+  <title>Botmaster bot</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-
 <body>
-<p>Hi Ciaran and Kase</p>
-</body>
+<div class="chat">
+  <ul id="messages"></ul>
+  <form id="form" action="">
+    <input type="text" id="text-input" autocomplete="off" /><button>Send</button>
+  </form>
+</div>
 
+<script src="/socket.io/socket.io.js"></script>
+<script src="javascript.js"></script>
+</body>
 </html>
