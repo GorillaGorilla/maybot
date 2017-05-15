@@ -37,6 +37,7 @@ form.onsubmit = function(event) {
 };
 
 socket.on('message', function(botmasterMessage){
+    console.log("botmaster message", botmasterMessage);
     var textMessage = botmasterMessage.message.text;
 
     messages.insertAdjacentHTML('beforeend',

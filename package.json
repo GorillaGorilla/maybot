@@ -1,5 +1,5 @@
 {
-  "name": "jdwilliams orchestration",
+  "name": "jdwilliams-orchestration",
   "version": "0.0.3",
   "private": true,
   "scripts": {
@@ -17,6 +17,6 @@
   },
   "repository": {},
   "engines": {
-    "node": "4.x"
+    "node": "6.8.0"
   }
 }
