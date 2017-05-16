@@ -6,3 +6,5 @@ applications:
   name: jdwilliams-orchestration
   host: jdwilliams-orchestration
   disk_quota: 1024M
+  services:
+    - jdw-mongo
