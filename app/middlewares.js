@@ -3,6 +3,9 @@
  */
 "use strict";
 
+const Order = require('mongoose').model('Order'),
+    Moment = require('moment');
+
 module.exports = {
     getOrdersData : getOrdersData,
     getOrder : getOrder,
@@ -17,8 +20,9 @@ function getOrdersData(params) {
 }
 
 function getOrder(params){
+    console.log("getOrder", params.update.watsonUpdate.context);
     let context = params.update.watsonUpdate.context;
-    return Order.find({id : context.orderNumber});
+    return Order.find({product : context.sku});
 }
 
 function makeOrder(params){

@@ -10,6 +10,7 @@
     "botmaster": "git+https://github.com/botmasterai/botmaster.git",
     "botmaster-fulfill": "^3.2.0",
     "botmaster-fulfill-actions": "^1.1.2",
+    "botmaster-messenger": "^1.0.1",
     "botmaster-session-ware": "^1.1.0",
     "botmaster-socket.io": "^1.0.2",
     "cfenv": "https://registry.npmjs.org/cfenv/-/cfenv-1.0.0.tgz",
