@@ -13,6 +13,7 @@
     "botmaster-messenger": "^1.0.1",
     "botmaster-session-ware": "^1.1.0",
     "botmaster-socket.io": "^1.0.2",
+    "botmaster-watson-conversation-ware": "^1.1.2",
     "cfenv": "https://registry.npmjs.org/cfenv/-/cfenv-1.0.0.tgz",
     "express": "~4.9.8"
   },

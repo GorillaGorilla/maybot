@@ -3,8 +3,6 @@ applications:
   memory: 256M
   instances: 1
   domain: eu-gb.mybluemix.net
-  name: jdwilliams-orchestration
-  host: jdwilliams-orchestration
+  name: conservative-answers
+  host: conservative-answers
   disk_quota: 1024M
-  services:
-    - jdw-mongo

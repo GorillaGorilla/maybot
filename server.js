@@ -6,7 +6,7 @@ const express     = require('express'),
     app         = express(),
     bodyParser = require('body-parser'),
     cfenv = require('cfenv');
-const db = require('./config/mongoose.js')();
+// const db = require('./config/mongoose.js')();
 
 
 app.use(bodyParser.urlencoded({ extended: false }));
