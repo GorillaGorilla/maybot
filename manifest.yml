@@ -3,6 +3,6 @@ applications:
   memory: 256M
   instances: 1
   domain: eu-gb.mybluemix.net
-  name: conservative-answers
-  host: conservative-answers
+  name: your-app-name-here
+  host: your-app-name-here
   disk_quota: 1024M

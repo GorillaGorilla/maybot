@@ -11,7 +11,6 @@ const botmaster = new Botmaster({server : app});
 const {fulfillOutgoingWare} = require('botmaster-fulfill');
 const SessionWare = require('botmaster-session-ware');
 const WatsonConversationWare = require('botmaster-watson-conversation-ware');
-// const Order = require('mongoose').model('Order');
 const Moment = require('moment'),
     MessengerBot = require('botmaster-messenger'),
     actions = require('botmaster-fulfill-actions');
@@ -69,7 +68,7 @@ botmaster.use({
 });
 
     const socketioSettings = {
-        id: '123bot',
+        id: 'thisBot',
         server: app, // this is required for socket.io. You can set it to another node server object if you wish to. But in this example, we will use the one created by botmaster under the hood
     };
     const socketioBot = new SocketioBot(socketioSettings);
